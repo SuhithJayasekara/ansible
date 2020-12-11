@@ -1,0 +1,9 @@
+---
+- name: copy demo
+  hosts: web
+  tasks:
+   - name: copy
+     fetch:
+      src: /var/www/html/index.html
+
+      dest: /home/user1/
