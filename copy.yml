@@ -1,6 +1,6 @@
 ---
 - name: copy demo
-  hosts: web
+  hosts: 192.168.33.143
   tasks:
    - name: copy
      fetch:
